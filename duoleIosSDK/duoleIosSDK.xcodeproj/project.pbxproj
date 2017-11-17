@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C16F4091F05F0BD0005C1AA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C16F4071F05F0BD0005C1AA /* MBProgressHUD.h */; };
+		7C16F40A1F05F0BD0005C1AA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16F4081F05F0BD0005C1AA /* MBProgressHUD.m */; };
+		7C3FFDCD1E5AD8630022A714 /* UIAlertView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3FFDCB1E5AD8630022A714 /* UIAlertView+Block.h */; };
+		7C3FFDCE1E5AD8630022A714 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FFDCC1E5AD8630022A714 /* UIAlertView+Block.m */; };
+		7C5D57921E4C564D00BFCBE5 /* FJFateLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5D57901E4C564D00BFCBE5 /* FJFateLoginRequest.h */; };
+		7C5D57931E4C564D00BFCBE5 /* FJFateLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D57911E4C564D00BFCBE5 /* FJFateLoginRequest.m */; };
+		7C6A2BCB1E5186E7005D6489 /* FJThirdPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A2BC91E5186E7005D6489 /* FJThirdPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6A2BCC1E5186E7005D6489 /* FJThirdPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A2BCA1E5186E7005D6489 /* FJThirdPay.m */; };
+		7C6A2BCF1E518703005D6489 /* FJThirdPayFileRW.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A2BCD1E518703005D6489 /* FJThirdPayFileRW.h */; };
+		7C6A2BD01E518703005D6489 /* FJThirdPayFileRW.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A2BCE1E518703005D6489 /* FJThirdPayFileRW.m */; };
+		7C6A2BD31E518730005D6489 /* FJThirdPaySendReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A2BD11E518730005D6489 /* FJThirdPaySendReceipt.h */; };
+		7C6A2BD41E518730005D6489 /* FJThirdPaySendReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A2BD21E518730005D6489 /* FJThirdPaySendReceipt.m */; };
+		FC2DF7DC1D484F06005160BD /* loginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DF7DA1D484F06005160BD /* loginRequest.h */; };
+		FC2DF7DD1D484F06005160BD /* loginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF7DB1D484F06005160BD /* loginRequest.m */; };
+		FC2DF7E11D4861D5005160BD /* XJLLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DF7DF1D4861D5005160BD /* XJLLoginRequest.h */; };
+		FC2DF7E21D4861D5005160BD /* XJLLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF7E01D4861D5005160BD /* XJLLoginRequest.m */; };
+		FC2DF7E51D489846005160BD /* GameLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DF7E31D489846005160BD /* GameLoginRequest.h */; };
+		FC2DF7E81D489868005160BD /* GameLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF7E71D489868005160BD /* GameLoginRequest.m */; };
+		FC2DF7F11D48BDE2005160BD /* JCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DF7EE1D48BDE2005160BD /* JCAlertView.h */; };
+		FC2DF7F21D48BDE2005160BD /* JCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF7EF1D48BDE2005160BD /* JCAlertView.m */; };
+		FC2DF7F61D48BFE9005160BD /* UIComboBox.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DF7F41D48BFE9005160BD /* UIComboBox.h */; };
+		FC2DF7F71D48BFE9005160BD /* UIComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF7F51D48BFE9005160BD /* UIComboBox.m */; };
+		FC2DF7FA1D4A0FFE005160BD /* duoleLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705CE1D47379A009F0B62 /* duoleLoginVC.m */; };
+		FC4705671D4713D0009F0B62 /* duoleIosSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705661D4713D0009F0B62 /* duoleIosSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC47056E1D4713D0009F0B62 /* duoleIosSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4705631D4713D0009F0B62 /* duoleIosSDK.framework */; };
+		FC4705731D4713D0009F0B62 /* duoleIosSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705721D4713D0009F0B62 /* duoleIosSDKTests.m */; };
+		FC4705851D4713E2009F0B62 /* Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705821D4713E2009F0B62 /* Macro.h */; };
+		FC4705D21D47379A009F0B62 /* duoleLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705CD1D47379A009F0B62 /* duoleLoginVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4705D31D47379A009F0B62 /* duoleLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705CE1D47379A009F0B62 /* duoleLoginVC.m */; };
+		FC4705D61D4737C5009F0B62 /* loginFileReadWrite.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705D41D4737C5009F0B62 /* loginFileReadWrite.h */; };
+		FC4705D71D4737C5009F0B62 /* loginFileReadWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705D51D4737C5009F0B62 /* loginFileReadWrite.m */; };
+		FC4705DB1D473B7D009F0B62 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705D91D473B7D009F0B62 /* KeychainItemWrapper.h */; };
+		FC4705DC1D473B7D009F0B62 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705DA1D473B7D009F0B62 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FC4705E81D475EF3009F0B62 /* CAIanimations.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4705E61D475EF3009F0B62 /* CAIanimations.h */; };
+		FC4705E91D475EF3009F0B62 /* CAIanimations.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4705E71D475EF3009F0B62 /* CAIanimations.m */; };
+		FC67EBC51D56473900F22001 /* duole_iap.md in Sources */ = {isa = PBXBuildFile; fileRef = FC67EBC41D56473900F22001 /* duole_iap.md */; };
+		FC67EC2B1D564F2A00F22001 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = FC67EBCA1D564F2A00F22001 /* AppleIncRootCertificate.cer */; };
+		FC67EC2C1D564F2A00F22001 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FC67EBCD1D564F2A00F22001 /* LICENSE */; };
+		FC67EC2D1D564F2A00F22001 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBCF1D564F2A00F22001 /* aes.h */; };
+		FC67EC2E1D564F2A00F22001 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD01D564F2A00F22001 /* asn1.h */; };
+		FC67EC2F1D564F2A00F22001 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD11D564F2A00F22001 /* asn1_mac.h */; };
+		FC67EC301D564F2A00F22001 /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD21D564F2A00F22001 /* asn1t.h */; };
+		FC67EC311D564F2A00F22001 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD31D564F2A00F22001 /* bio.h */; };
+		FC67EC321D564F2A00F22001 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD41D564F2A00F22001 /* blowfish.h */; };
+		FC67EC331D564F2A00F22001 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD51D564F2A00F22001 /* bn.h */; };
+		FC67EC341D564F2A00F22001 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD61D564F2A00F22001 /* buffer.h */; };
+		FC67EC351D564F2A00F22001 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD71D564F2A00F22001 /* camellia.h */; };
+		FC67EC361D564F2A00F22001 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD81D564F2A00F22001 /* cast.h */; };
+		FC67EC371D564F2A00F22001 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBD91D564F2A00F22001 /* cmac.h */; };
+		FC67EC381D564F2A00F22001 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDA1D564F2A00F22001 /* cms.h */; };
+		FC67EC391D564F2A00F22001 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDB1D564F2A00F22001 /* comp.h */; };
+		FC67EC3A1D564F2A00F22001 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDC1D564F2A00F22001 /* conf.h */; };
+		FC67EC3B1D564F2A00F22001 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDD1D564F2A00F22001 /* conf_api.h */; };
+		FC67EC3C1D564F2A00F22001 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDE1D564F2A00F22001 /* crypto.h */; };
+		FC67EC3D1D564F2A00F22001 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBDF1D564F2A00F22001 /* des.h */; };
+		FC67EC3E1D564F2A00F22001 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE01D564F2A00F22001 /* des_old.h */; };
+		FC67EC3F1D564F2A00F22001 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE11D564F2A00F22001 /* dh.h */; };
+		FC67EC401D564F2A00F22001 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE21D564F2A00F22001 /* dsa.h */; };
+		FC67EC411D564F2A00F22001 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE31D564F2A00F22001 /* dso.h */; };
+		FC67EC421D564F2A00F22001 /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE41D564F2A00F22001 /* dtls1.h */; };
+		FC67EC431D564F2A00F22001 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE51D564F2A00F22001 /* e_os2.h */; };
+		FC67EC441D564F2A00F22001 /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE61D564F2A00F22001 /* ebcdic.h */; };
+		FC67EC451D564F2A00F22001 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE71D564F2A00F22001 /* ec.h */; };
+		FC67EC461D564F2A00F22001 /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE81D564F2A00F22001 /* ecdh.h */; };
+		FC67EC471D564F2A00F22001 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBE91D564F2A00F22001 /* ecdsa.h */; };
+		FC67EC481D564F2A00F22001 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBEA1D564F2A00F22001 /* engine.h */; };
+		FC67EC491D564F2A00F22001 /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBEB1D564F2A00F22001 /* err.h */; };
+		FC67EC4A1D564F2A00F22001 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBEC1D564F2A00F22001 /* evp.h */; };
+		FC67EC4B1D564F2A00F22001 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBED1D564F2A00F22001 /* hmac.h */; };
+		FC67EC4C1D564F2A00F22001 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBEE1D564F2A00F22001 /* idea.h */; };
+		FC67EC4D1D564F2A00F22001 /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBEF1D564F2A00F22001 /* krb5_asn.h */; };
+		FC67EC4E1D564F2A00F22001 /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF01D564F2A00F22001 /* kssl.h */; };
+		FC67EC4F1D564F2A00F22001 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF11D564F2A00F22001 /* lhash.h */; };
+		FC67EC501D564F2A00F22001 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF21D564F2A00F22001 /* md4.h */; };
+		FC67EC511D564F2A00F22001 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF31D564F2A00F22001 /* md5.h */; };
+		FC67EC521D564F2A00F22001 /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF41D564F2A00F22001 /* mdc2.h */; };
+		FC67EC531D564F2A00F22001 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF51D564F2A00F22001 /* modes.h */; };
+		FC67EC541D564F2A00F22001 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF61D564F2A00F22001 /* obj_mac.h */; };
+		FC67EC551D564F2A00F22001 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF71D564F2A00F22001 /* objects.h */; };
+		FC67EC561D564F2A00F22001 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF81D564F2A00F22001 /* ocsp.h */; };
+		FC67EC571D564F2A00F22001 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBF91D564F2A00F22001 /* opensslconf.h */; };
+		FC67EC581D564F2A00F22001 /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFA1D564F2A00F22001 /* opensslv.h */; };
+		FC67EC591D564F2A00F22001 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFB1D564F2A00F22001 /* ossl_typ.h */; };
+		FC67EC5A1D564F2A00F22001 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFC1D564F2A00F22001 /* pem.h */; };
+		FC67EC5B1D564F2A00F22001 /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFD1D564F2A00F22001 /* pem2.h */; };
+		FC67EC5C1D564F2A00F22001 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFE1D564F2A00F22001 /* pkcs12.h */; };
+		FC67EC5D1D564F2A00F22001 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EBFF1D564F2A00F22001 /* pkcs7.h */; };
+		FC67EC5E1D564F2A00F22001 /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC001D564F2A00F22001 /* pqueue.h */; };
+		FC67EC5F1D564F2A00F22001 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC011D564F2A00F22001 /* rand.h */; };
+		FC67EC601D564F2A00F22001 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC021D564F2A00F22001 /* rc2.h */; };
+		FC67EC611D564F2A00F22001 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC031D564F2A00F22001 /* rc4.h */; };
+		FC67EC621D564F2A00F22001 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC041D564F2A00F22001 /* ripemd.h */; };
+		FC67EC631D564F2A00F22001 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC051D564F2A00F22001 /* rsa.h */; };
+		FC67EC641D564F2A00F22001 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC061D564F2A00F22001 /* safestack.h */; };
+		FC67EC651D564F2A00F22001 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC071D564F2A00F22001 /* seed.h */; };
+		FC67EC661D564F2A00F22001 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC081D564F2A00F22001 /* sha.h */; };
+		FC67EC671D564F2A00F22001 /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC091D564F2A00F22001 /* srp.h */; };
+		FC67EC681D564F2A00F22001 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0A1D564F2A00F22001 /* srtp.h */; };
+		FC67EC691D564F2A00F22001 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0B1D564F2A00F22001 /* ssl.h */; };
+		FC67EC6A1D564F2A00F22001 /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0C1D564F2A00F22001 /* ssl2.h */; };
+		FC67EC6B1D564F2A00F22001 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0D1D564F2A00F22001 /* ssl23.h */; };
+		FC67EC6C1D564F2A00F22001 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0E1D564F2A00F22001 /* ssl3.h */; };
+		FC67EC6D1D564F2A00F22001 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC0F1D564F2A00F22001 /* stack.h */; };
+		FC67EC6E1D564F2A00F22001 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC101D564F2A00F22001 /* symhacks.h */; };
+		FC67EC6F1D564F2A00F22001 /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC111D564F2A00F22001 /* tls1.h */; };
+		FC67EC701D564F2A00F22001 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC121D564F2A00F22001 /* ts.h */; };
+		FC67EC711D564F2A00F22001 /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC131D564F2A00F22001 /* txt_db.h */; };
+		FC67EC721D564F2A00F22001 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC141D564F2A00F22001 /* ui.h */; };
+		FC67EC731D564F2A00F22001 /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC151D564F2A00F22001 /* ui_compat.h */; };
+		FC67EC741D564F2A00F22001 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC161D564F2A00F22001 /* whrlpool.h */; };
+		FC67EC751D564F2A00F22001 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC171D564F2A00F22001 /* x509.h */; };
+		FC67EC761D564F2A00F22001 /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC181D564F2A00F22001 /* x509_vfy.h */; };
+		FC67EC771D564F2A00F22001 /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC191D564F2A00F22001 /* x509v3.h */; };
+		FC67EC781D564F2A00F22001 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC67EC1B1D564F2A00F22001 /* libcrypto.a */; };
+		FC67EC791D564F2A00F22001 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC67EC1C1D564F2A00F22001 /* libssl.a */; };
+		FC67EC7A1D564F2A00F22001 /* RMAppReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC1D1D564F2A00F22001 /* RMAppReceipt.h */; };
+		FC67EC7B1D564F2A00F22001 /* RMAppReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC1E1D564F2A00F22001 /* RMAppReceipt.m */; };
+		FC67EC7C1D564F2A00F22001 /* RMStoreAppReceiptVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC1F1D564F2A00F22001 /* RMStoreAppReceiptVerifier.h */; };
+		FC67EC7D1D564F2A00F22001 /* RMStoreAppReceiptVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC201D564F2A00F22001 /* RMStoreAppReceiptVerifier.m */; };
+		FC67EC7E1D564F2A00F22001 /* RMStoreKeychainPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC211D564F2A00F22001 /* RMStoreKeychainPersistence.h */; };
+		FC67EC7F1D564F2A00F22001 /* RMStoreKeychainPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC221D564F2A00F22001 /* RMStoreKeychainPersistence.m */; };
+		FC67EC801D564F2A00F22001 /* RMStoreTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC231D564F2A00F22001 /* RMStoreTransaction.h */; };
+		FC67EC811D564F2A00F22001 /* RMStoreTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC241D564F2A00F22001 /* RMStoreTransaction.m */; };
+		FC67EC821D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC251D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.h */; };
+		FC67EC831D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC261D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.m */; };
+		FC67EC841D564F2A00F22001 /* RMStoreUserDefaultsPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC271D564F2A00F22001 /* RMStoreUserDefaultsPersistence.h */; };
+		FC67EC851D564F2A00F22001 /* RMStoreUserDefaultsPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC281D564F2A00F22001 /* RMStoreUserDefaultsPersistence.m */; };
+		FC67EC861D564F2A00F22001 /* RMStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FC67EC291D564F2A00F22001 /* RMStore.h */; };
+		FC67EC871D564F2A00F22001 /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FC67EC2A1D564F2A00F22001 /* RMStore.m */; };
+		FC749C861D63FED900993327 /* Eggs.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749C841D63FED900993327 /* Eggs.h */; };
+		FC749C871D63FED900993327 /* Eggs.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749C851D63FED900993327 /* Eggs.m */; };
+		FC749C961D64467100993327 /* playerVideoVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749C941D64467100993327 /* playerVideoVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC749C971D64467100993327 /* playerVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749C951D64467100993327 /* playerVideoVC.m */; };
+		FC92EEE81D6ADFC4007AE814 /* CanTingFateLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC92EEE61D6ADFC4007AE814 /* CanTingFateLoginRequest.m */; };
+		FC92EEE91D6ADFC4007AE814 /* CanTingLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC92EEE71D6ADFC4007AE814 /* CanTingLoginRequest.h */; };
+		FCA29FF51D5435C7000AF3C3 /* duole_iap.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA29FE01D5435C7000AF3C3 /* duole_iap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA29FF61D5435C7000AF3C3 /* duole_iap.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA29FE11D5435C7000AF3C3 /* duole_iap.m */; };
+		FCA29FF71D5435C7000AF3C3 /* iapFileRW.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA29FE31D5435C7000AF3C3 /* iapFileRW.h */; };
+		FCA29FF81D5435C7000AF3C3 /* iapFileRW.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA29FE41D5435C7000AF3C3 /* iapFileRW.m */; };
+		FCA29FFD1D5435C7000AF3C3 /* sendReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA29FEA1D5435C7000AF3C3 /* sendReceipt.h */; };
+		FCA29FFE1D5435C7000AF3C3 /* sendReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA29FEB1D5435C7000AF3C3 /* sendReceipt.m */; };
+		FCA29FFF1D5435C7000AF3C3 /* duole_log.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA29FED1D5435C7000AF3C3 /* duole_log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA2A0001D5435C7000AF3C3 /* duole_log.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA29FEE1D5435C7000AF3C3 /* duole_log.m */; };
+		FCA2A0031D5435C7000AF3C3 /* sendFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA29FF31D5435C7000AF3C3 /* sendFile.h */; };
+		FCA2A0041D5435C7000AF3C3 /* sendFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA29FF41D5435C7000AF3C3 /* sendFile.m */; };
+		FCA2A0081D5437CA000AF3C3 /* logFileRW.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA2A0061D5437CA000AF3C3 /* logFileRW.h */; };
+		FCA2A0091D5437CA000AF3C3 /* logFileRW.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2A0071D5437CA000AF3C3 /* logFileRW.m */; };
+		FCCA4C861D4F366D00E8ACE8 /* moreFunctionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCA4C841D4F366D00E8ACE8 /* moreFunctionVC.h */; };
+		FCCA4C871D4F366D00E8ACE8 /* moreFunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA4C851D4F366D00E8ACE8 /* moreFunctionVC.m */; };
+		FCCA4C8B1D4F4B8900E8ACE8 /* moreFunctionFileRW.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCA4C891D4F4B8900E8ACE8 /* moreFunctionFileRW.h */; };
+		FCCA4C8C1D4F4B8900E8ACE8 /* moreFunctionFileRW.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA4C8A1D4F4B8900E8ACE8 /* moreFunctionFileRW.m */; };
+		FCCA4C911D503CD600E8ACE8 /* FateLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCA4C8F1D503CD600E8ACE8 /* FateLoginRequest.h */; };
+		FCCA4C921D503CD600E8ACE8 /* FateLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA4C901D503CD600E8ACE8 /* FateLoginRequest.m */; };
+		FCDBC0DF1D50785C007CA845 /* localNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDBC0DD1D50785C007CA845 /* localNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDBC0E01D50785C007CA845 /* localNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBC0DE1D50785C007CA845 /* localNotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC47056F1D4713D0009F0B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC47055A1D4713D0009F0B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4705621D4713D0009F0B62;
+			remoteInfo = duoleIosSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C16F4071F05F0BD0005C1AA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7C16F4081F05F0BD0005C1AA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7C3FFDCB1E5AD8630022A714 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		7C3FFDCC1E5AD8630022A714 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		7C5D57901E4C564D00BFCBE5 /* FJFateLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFateLoginRequest.h; sourceTree = "<group>"; };
+		7C5D57911E4C564D00BFCBE5 /* FJFateLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFateLoginRequest.m; sourceTree = "<group>"; };
+		7C6A2BC91E5186E7005D6489 /* FJThirdPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJThirdPay.h; sourceTree = "<group>"; };
+		7C6A2BCA1E5186E7005D6489 /* FJThirdPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJThirdPay.m; sourceTree = "<group>"; };
+		7C6A2BCD1E518703005D6489 /* FJThirdPayFileRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJThirdPayFileRW.h; sourceTree = "<group>"; };
+		7C6A2BCE1E518703005D6489 /* FJThirdPayFileRW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJThirdPayFileRW.m; sourceTree = "<group>"; };
+		7C6A2BD11E518730005D6489 /* FJThirdPaySendReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJThirdPaySendReceipt.h; sourceTree = "<group>"; };
+		7C6A2BD21E518730005D6489 /* FJThirdPaySendReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJThirdPaySendReceipt.m; sourceTree = "<group>"; };
+		FC2DF7DA1D484F06005160BD /* loginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginRequest.h; sourceTree = "<group>"; };
+		FC2DF7DB1D484F06005160BD /* loginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginRequest.m; sourceTree = "<group>"; };
+		FC2DF7DF1D4861D5005160BD /* XJLLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJLLoginRequest.h; sourceTree = "<group>"; };
+		FC2DF7E01D4861D5005160BD /* XJLLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJLLoginRequest.m; sourceTree = "<group>"; };
+		FC2DF7E31D489846005160BD /* GameLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLoginRequest.h; sourceTree = "<group>"; };
+		FC2DF7E71D489868005160BD /* GameLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLoginRequest.m; sourceTree = "<group>"; };
+		FC2DF7EE1D48BDE2005160BD /* JCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAlertView.h; sourceTree = "<group>"; };
+		FC2DF7EF1D48BDE2005160BD /* JCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAlertView.m; sourceTree = "<group>"; };
+		FC2DF7F41D48BFE9005160BD /* UIComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComboBox.h; sourceTree = "<group>"; };
+		FC2DF7F51D48BFE9005160BD /* UIComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIComboBox.m; sourceTree = "<group>"; };
+		FC4705631D4713D0009F0B62 /* duoleIosSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = duoleIosSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4705661D4713D0009F0B62 /* duoleIosSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duoleIosSDK.h; sourceTree = "<group>"; };
+		FC4705681D4713D0009F0B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC47056D1D4713D0009F0B62 /* duoleIosSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duoleIosSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4705721D4713D0009F0B62 /* duoleIosSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = duoleIosSDKTests.m; sourceTree = "<group>"; };
+		FC4705741D4713D0009F0B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4705821D4713E2009F0B62 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		FC4705CD1D47379A009F0B62 /* duoleLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duoleLoginVC.h; sourceTree = "<group>"; };
+		FC4705CE1D47379A009F0B62 /* duoleLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = duoleLoginVC.m; sourceTree = "<group>"; };
+		FC4705D41D4737C5009F0B62 /* loginFileReadWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginFileReadWrite.h; sourceTree = "<group>"; };
+		FC4705D51D4737C5009F0B62 /* loginFileReadWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginFileReadWrite.m; sourceTree = "<group>"; };
+		FC4705D91D473B7D009F0B62 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		FC4705DA1D473B7D009F0B62 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		FC4705E61D475EF3009F0B62 /* CAIanimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAIanimations.h; sourceTree = "<group>"; };
+		FC4705E71D475EF3009F0B62 /* CAIanimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAIanimations.m; sourceTree = "<group>"; };
+		FC67EBC41D56473900F22001 /* duole_iap.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = duole_iap.md; sourceTree = "<group>"; };
+		FC67EBCA1D564F2A00F22001 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		FC67EBCD1D564F2A00F22001 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC67EBCF1D564F2A00F22001 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		FC67EBD01D564F2A00F22001 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		FC67EBD11D564F2A00F22001 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		FC67EBD21D564F2A00F22001 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		FC67EBD31D564F2A00F22001 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		FC67EBD41D564F2A00F22001 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		FC67EBD51D564F2A00F22001 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		FC67EBD61D564F2A00F22001 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		FC67EBD71D564F2A00F22001 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		FC67EBD81D564F2A00F22001 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		FC67EBD91D564F2A00F22001 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		FC67EBDA1D564F2A00F22001 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		FC67EBDB1D564F2A00F22001 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		FC67EBDC1D564F2A00F22001 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		FC67EBDD1D564F2A00F22001 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		FC67EBDE1D564F2A00F22001 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		FC67EBDF1D564F2A00F22001 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		FC67EBE01D564F2A00F22001 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		FC67EBE11D564F2A00F22001 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		FC67EBE21D564F2A00F22001 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		FC67EBE31D564F2A00F22001 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		FC67EBE41D564F2A00F22001 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		FC67EBE51D564F2A00F22001 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		FC67EBE61D564F2A00F22001 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		FC67EBE71D564F2A00F22001 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		FC67EBE81D564F2A00F22001 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		FC67EBE91D564F2A00F22001 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		FC67EBEA1D564F2A00F22001 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		FC67EBEB1D564F2A00F22001 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		FC67EBEC1D564F2A00F22001 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		FC67EBED1D564F2A00F22001 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		FC67EBEE1D564F2A00F22001 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		FC67EBEF1D564F2A00F22001 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		FC67EBF01D564F2A00F22001 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		FC67EBF11D564F2A00F22001 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		FC67EBF21D564F2A00F22001 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		FC67EBF31D564F2A00F22001 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		FC67EBF41D564F2A00F22001 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		FC67EBF51D564F2A00F22001 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		FC67EBF61D564F2A00F22001 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		FC67EBF71D564F2A00F22001 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		FC67EBF81D564F2A00F22001 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		FC67EBF91D564F2A00F22001 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		FC67EBFA1D564F2A00F22001 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		FC67EBFB1D564F2A00F22001 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		FC67EBFC1D564F2A00F22001 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		FC67EBFD1D564F2A00F22001 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		FC67EBFE1D564F2A00F22001 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		FC67EBFF1D564F2A00F22001 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		FC67EC001D564F2A00F22001 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		FC67EC011D564F2A00F22001 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		FC67EC021D564F2A00F22001 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		FC67EC031D564F2A00F22001 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		FC67EC041D564F2A00F22001 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		FC67EC051D564F2A00F22001 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		FC67EC061D564F2A00F22001 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		FC67EC071D564F2A00F22001 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		FC67EC081D564F2A00F22001 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		FC67EC091D564F2A00F22001 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		FC67EC0A1D564F2A00F22001 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		FC67EC0B1D564F2A00F22001 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		FC67EC0C1D564F2A00F22001 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		FC67EC0D1D564F2A00F22001 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		FC67EC0E1D564F2A00F22001 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		FC67EC0F1D564F2A00F22001 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		FC67EC101D564F2A00F22001 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		FC67EC111D564F2A00F22001 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		FC67EC121D564F2A00F22001 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		FC67EC131D564F2A00F22001 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		FC67EC141D564F2A00F22001 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		FC67EC151D564F2A00F22001 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		FC67EC161D564F2A00F22001 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		FC67EC171D564F2A00F22001 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		FC67EC181D564F2A00F22001 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		FC67EC191D564F2A00F22001 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		FC67EC1B1D564F2A00F22001 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		FC67EC1C1D564F2A00F22001 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		FC67EC1D1D564F2A00F22001 /* RMAppReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAppReceipt.h; sourceTree = "<group>"; };
+		FC67EC1E1D564F2A00F22001 /* RMAppReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAppReceipt.m; sourceTree = "<group>"; };
+		FC67EC1F1D564F2A00F22001 /* RMStoreAppReceiptVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreAppReceiptVerifier.h; sourceTree = "<group>"; };
+		FC67EC201D564F2A00F22001 /* RMStoreAppReceiptVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreAppReceiptVerifier.m; sourceTree = "<group>"; };
+		FC67EC211D564F2A00F22001 /* RMStoreKeychainPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreKeychainPersistence.h; sourceTree = "<group>"; };
+		FC67EC221D564F2A00F22001 /* RMStoreKeychainPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreKeychainPersistence.m; sourceTree = "<group>"; };
+		FC67EC231D564F2A00F22001 /* RMStoreTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreTransaction.h; sourceTree = "<group>"; };
+		FC67EC241D564F2A00F22001 /* RMStoreTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreTransaction.m; sourceTree = "<group>"; };
+		FC67EC251D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreTransactionReceiptVerifier.h; sourceTree = "<group>"; };
+		FC67EC261D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreTransactionReceiptVerifier.m; sourceTree = "<group>"; };
+		FC67EC271D564F2A00F22001 /* RMStoreUserDefaultsPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStoreUserDefaultsPersistence.h; sourceTree = "<group>"; };
+		FC67EC281D564F2A00F22001 /* RMStoreUserDefaultsPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStoreUserDefaultsPersistence.m; sourceTree = "<group>"; };
+		FC67EC291D564F2A00F22001 /* RMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStore.h; sourceTree = "<group>"; };
+		FC67EC2A1D564F2A00F22001 /* RMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStore.m; sourceTree = "<group>"; };
+		FC749C841D63FED900993327 /* Eggs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Eggs.h; path = Eggs/Eggs.h; sourceTree = "<group>"; };
+		FC749C851D63FED900993327 /* Eggs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Eggs.m; path = Eggs/Eggs.m; sourceTree = "<group>"; };
+		FC749C941D64467100993327 /* playerVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playerVideoVC.h; path = playerVideo/controller/playerVideoVC.h; sourceTree = "<group>"; };
+		FC749C951D64467100993327 /* playerVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = playerVideoVC.m; path = playerVideo/controller/playerVideoVC.m; sourceTree = "<group>"; };
+		FC92EEE61D6ADFC4007AE814 /* CanTingFateLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanTingFateLoginRequest.m; sourceTree = "<group>"; };
+		FC92EEE71D6ADFC4007AE814 /* CanTingLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanTingLoginRequest.h; sourceTree = "<group>"; };
+		FCA29FE01D5435C7000AF3C3 /* duole_iap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duole_iap.h; sourceTree = "<group>"; };
+		FCA29FE11D5435C7000AF3C3 /* duole_iap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = duole_iap.m; sourceTree = "<group>"; };
+		FCA29FE31D5435C7000AF3C3 /* iapFileRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iapFileRW.h; sourceTree = "<group>"; };
+		FCA29FE41D5435C7000AF3C3 /* iapFileRW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iapFileRW.m; sourceTree = "<group>"; };
+		FCA29FEA1D5435C7000AF3C3 /* sendReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendReceipt.h; sourceTree = "<group>"; };
+		FCA29FEB1D5435C7000AF3C3 /* sendReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendReceipt.m; sourceTree = "<group>"; };
+		FCA29FED1D5435C7000AF3C3 /* duole_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duole_log.h; sourceTree = "<group>"; };
+		FCA29FEE1D5435C7000AF3C3 /* duole_log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = duole_log.m; sourceTree = "<group>"; };
+		FCA29FF31D5435C7000AF3C3 /* sendFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendFile.h; sourceTree = "<group>"; };
+		FCA29FF41D5435C7000AF3C3 /* sendFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendFile.m; sourceTree = "<group>"; };
+		FCA2A0061D5437CA000AF3C3 /* logFileRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logFileRW.h; sourceTree = "<group>"; };
+		FCA2A0071D5437CA000AF3C3 /* logFileRW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logFileRW.m; sourceTree = "<group>"; };
+		FCCA4C841D4F366D00E8ACE8 /* moreFunctionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreFunctionVC.h; sourceTree = "<group>"; };
+		FCCA4C851D4F366D00E8ACE8 /* moreFunctionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreFunctionVC.m; sourceTree = "<group>"; };
+		FCCA4C891D4F4B8900E8ACE8 /* moreFunctionFileRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreFunctionFileRW.h; sourceTree = "<group>"; };
+		FCCA4C8A1D4F4B8900E8ACE8 /* moreFunctionFileRW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreFunctionFileRW.m; sourceTree = "<group>"; };
+		FCCA4C8F1D503CD600E8ACE8 /* FateLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FateLoginRequest.h; sourceTree = "<group>"; };
+		FCCA4C901D503CD600E8ACE8 /* FateLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FateLoginRequest.m; sourceTree = "<group>"; };
+		FCDBC0DD1D50785C007CA845 /* localNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = localNotification.h; path = duoleIosSDK/Class/localNotification/localNotification.h; sourceTree = SOURCE_ROOT; };
+		FCDBC0DE1D50785C007CA845 /* localNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = localNotification.m; path = duoleIosSDK/Class/localNotification/localNotification.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC47055F1D4713D0009F0B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC67EC791D564F2A00F22001 /* libssl.a in Frameworks */,
+				FC67EC781D564F2A00F22001 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47056A1D4713D0009F0B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47056E1D4713D0009F0B62 /* duoleIosSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C16F4061F05F0BD0005C1AA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7C16F4071F05F0BD0005C1AA /* MBProgressHUD.h */,
+				7C16F4081F05F0BD0005C1AA /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7C3FFDCA1E5AD8630022A714 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7C3FFDCB1E5AD8630022A714 /* UIAlertView+Block.h */,
+				7C3FFDCC1E5AD8630022A714 /* UIAlertView+Block.m */,
+			);
+			name = UIAlertView;
+			path = Category/UIAlertView;
+			sourceTree = "<group>";
+		};
+		FC2DF7EC1D48BDE2005160BD /* JCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF7EE1D48BDE2005160BD /* JCAlertView.h */,
+				FC2DF7EF1D48BDE2005160BD /* JCAlertView.m */,
+			);
+			path = JCAlertView;
+			sourceTree = "<group>";
+		};
+		FC2DF7F31D48BFE9005160BD /* UIComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF7F41D48BFE9005160BD /* UIComboBox.h */,
+				FC2DF7F51D48BFE9005160BD /* UIComboBox.m */,
+			);
+			path = UIComboBox;
+			sourceTree = "<group>";
+		};
+		FC4705591D4713D0009F0B62 = {
+			isa = PBXGroup;
+			children = (
+				FC4705651D4713D0009F0B62 /* duoleIosSDK */,
+				FC4705711D4713D0009F0B62 /* duoleIosSDKTests */,
+				FC4705641D4713D0009F0B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4705641D4713D0009F0B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705631D4713D0009F0B62 /* duoleIosSDK.framework */,
+				FC47056D1D4713D0009F0B62 /* duoleIosSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4705651D4713D0009F0B62 /* duoleIosSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705661D4713D0009F0B62 /* duoleIosSDK.h */,
+				FC47057D1D4713E2009F0B62 /* Class */,
+				FC4705861D47146F009F0B62 /* Librarys */,
+				FC4705681D4713D0009F0B62 /* Info.plist */,
+			);
+			path = duoleIosSDK;
+			sourceTree = "<group>";
+		};
+		FC4705711D4713D0009F0B62 /* duoleIosSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705721D4713D0009F0B62 /* duoleIosSDKTests.m */,
+				FC4705741D4713D0009F0B62 /* Info.plist */,
+			);
+			path = duoleIosSDKTests;
+			sourceTree = "<group>";
+		};
+		FC47057D1D4713E2009F0B62 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7C3FFDCA1E5AD8630022A714 /* UIAlertView */,
+				FC4705811D4713E2009F0B62 /* Macro */,
+				FC4705CB1D47379A009F0B62 /* duole_login */,
+				FCA29FDF1D5435C7000AF3C3 /* duole_iap */,
+				FCA29FEC1D5435C7000AF3C3 /* duole_log */,
+				FC749C921D6444C500993327 /* playerVideo */,
+				FCDBC0DB1D50772E007CA845 /* localNotification */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FC4705811D4713E2009F0B62 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705821D4713E2009F0B62 /* Macro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		FC4705861D47146F009F0B62 /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				7C16F4061F05F0BD0005C1AA /* MBProgressHUD */,
+				FC67EBC81D564F2A00F22001 /* RMStore */,
+				FC2DF7EC1D48BDE2005160BD /* JCAlertView */,
+				FC4705E51D475EF3009F0B62 /* CAIanimations */,
+				FC4705D81D473B7D009F0B62 /* KeychainItemWrapper */,
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		FC4705CB1D47379A009F0B62 /* duole_login */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705CC1D47379A009F0B62 /* controller */,
+				FC4705CF1D47379A009F0B62 /* fileReadWrite */,
+				FC4705D01D47379A009F0B62 /* request */,
+				FC4705D11D47379A009F0B62 /* view */,
+			);
+			path = duole_login;
+			sourceTree = "<group>";
+		};
+		FC4705CC1D47379A009F0B62 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705CD1D47379A009F0B62 /* duoleLoginVC.h */,
+				FC4705CE1D47379A009F0B62 /* duoleLoginVC.m */,
+				FCCA4C841D4F366D00E8ACE8 /* moreFunctionVC.h */,
+				FCCA4C851D4F366D00E8ACE8 /* moreFunctionVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FC4705CF1D47379A009F0B62 /* fileReadWrite */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705D41D4737C5009F0B62 /* loginFileReadWrite.h */,
+				FC4705D51D4737C5009F0B62 /* loginFileReadWrite.m */,
+				FCCA4C891D4F4B8900E8ACE8 /* moreFunctionFileRW.h */,
+				FCCA4C8A1D4F4B8900E8ACE8 /* moreFunctionFileRW.m */,
+			);
+			path = fileReadWrite;
+			sourceTree = "<group>";
+		};
+		FC4705D01D47379A009F0B62 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF7DA1D484F06005160BD /* loginRequest.h */,
+				FC2DF7DB1D484F06005160BD /* loginRequest.m */,
+				FC2DF7E31D489846005160BD /* GameLoginRequest.h */,
+				FC2DF7E71D489868005160BD /* GameLoginRequest.m */,
+				FC2DF7DF1D4861D5005160BD /* XJLLoginRequest.h */,
+				FC2DF7E01D4861D5005160BD /* XJLLoginRequest.m */,
+				FCCA4C8F1D503CD600E8ACE8 /* FateLoginRequest.h */,
+				FCCA4C901D503CD600E8ACE8 /* FateLoginRequest.m */,
+				FC92EEE61D6ADFC4007AE814 /* CanTingFateLoginRequest.m */,
+				FC92EEE71D6ADFC4007AE814 /* CanTingLoginRequest.h */,
+				7C5D57901E4C564D00BFCBE5 /* FJFateLoginRequest.h */,
+				7C5D57911E4C564D00BFCBE5 /* FJFateLoginRequest.m */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		FC4705D11D47379A009F0B62 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC749C831D63FE9F00993327 /* Eggs */,
+				FC2DF7F31D48BFE9005160BD /* UIComboBox */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FC4705D81D473B7D009F0B62 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705D91D473B7D009F0B62 /* KeychainItemWrapper.h */,
+				FC4705DA1D473B7D009F0B62 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		FC4705E51D475EF3009F0B62 /* CAIanimations */ = {
+			isa = PBXGroup;
+			children = (
+				FC4705E61D475EF3009F0B62 /* CAIanimations.h */,
+				FC4705E71D475EF3009F0B62 /* CAIanimations.m */,
+			);
+			path = CAIanimations;
+			sourceTree = "<group>";
+		};
+		FC67EBC81D564F2A00F22001 /* RMStore */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBC91D564F2A00F22001 /* Optional */,
+				FC67EC291D564F2A00F22001 /* RMStore.h */,
+				FC67EC2A1D564F2A00F22001 /* RMStore.m */,
+			);
+			path = RMStore;
+			sourceTree = "<group>";
+		};
+		FC67EBC91D564F2A00F22001 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBCA1D564F2A00F22001 /* AppleIncRootCertificate.cer */,
+				FC67EBCB1D564F2A00F22001 /* openssl-1.0.1e */,
+				FC67EC1D1D564F2A00F22001 /* RMAppReceipt.h */,
+				FC67EC1E1D564F2A00F22001 /* RMAppReceipt.m */,
+				FC67EC1F1D564F2A00F22001 /* RMStoreAppReceiptVerifier.h */,
+				FC67EC201D564F2A00F22001 /* RMStoreAppReceiptVerifier.m */,
+				FC67EC211D564F2A00F22001 /* RMStoreKeychainPersistence.h */,
+				FC67EC221D564F2A00F22001 /* RMStoreKeychainPersistence.m */,
+				FC67EC231D564F2A00F22001 /* RMStoreTransaction.h */,
+				FC67EC241D564F2A00F22001 /* RMStoreTransaction.m */,
+				FC67EC251D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.h */,
+				FC67EC261D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.m */,
+				FC67EC271D564F2A00F22001 /* RMStoreUserDefaultsPersistence.h */,
+				FC67EC281D564F2A00F22001 /* RMStoreUserDefaultsPersistence.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		FC67EBCB1D564F2A00F22001 /* openssl-1.0.1e */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBCC1D564F2A00F22001 /* include */,
+				FC67EC1A1D564F2A00F22001 /* lib */,
+			);
+			path = "openssl-1.0.1e";
+			sourceTree = "<group>";
+		};
+		FC67EBCC1D564F2A00F22001 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBCD1D564F2A00F22001 /* LICENSE */,
+				FC67EBCE1D564F2A00F22001 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FC67EBCE1D564F2A00F22001 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBCF1D564F2A00F22001 /* aes.h */,
+				FC67EBD01D564F2A00F22001 /* asn1.h */,
+				FC67EBD11D564F2A00F22001 /* asn1_mac.h */,
+				FC67EBD21D564F2A00F22001 /* asn1t.h */,
+				FC67EBD31D564F2A00F22001 /* bio.h */,
+				FC67EBD41D564F2A00F22001 /* blowfish.h */,
+				FC67EBD51D564F2A00F22001 /* bn.h */,
+				FC67EBD61D564F2A00F22001 /* buffer.h */,
+				FC67EBD71D564F2A00F22001 /* camellia.h */,
+				FC67EBD81D564F2A00F22001 /* cast.h */,
+				FC67EBD91D564F2A00F22001 /* cmac.h */,
+				FC67EBDA1D564F2A00F22001 /* cms.h */,
+				FC67EBDB1D564F2A00F22001 /* comp.h */,
+				FC67EBDC1D564F2A00F22001 /* conf.h */,
+				FC67EBDD1D564F2A00F22001 /* conf_api.h */,
+				FC67EBDE1D564F2A00F22001 /* crypto.h */,
+				FC67EBDF1D564F2A00F22001 /* des.h */,
+				FC67EBE01D564F2A00F22001 /* des_old.h */,
+				FC67EBE11D564F2A00F22001 /* dh.h */,
+				FC67EBE21D564F2A00F22001 /* dsa.h */,
+				FC67EBE31D564F2A00F22001 /* dso.h */,
+				FC67EBE41D564F2A00F22001 /* dtls1.h */,
+				FC67EBE51D564F2A00F22001 /* e_os2.h */,
+				FC67EBE61D564F2A00F22001 /* ebcdic.h */,
+				FC67EBE71D564F2A00F22001 /* ec.h */,
+				FC67EBE81D564F2A00F22001 /* ecdh.h */,
+				FC67EBE91D564F2A00F22001 /* ecdsa.h */,
+				FC67EBEA1D564F2A00F22001 /* engine.h */,
+				FC67EBEB1D564F2A00F22001 /* err.h */,
+				FC67EBEC1D564F2A00F22001 /* evp.h */,
+				FC67EBED1D564F2A00F22001 /* hmac.h */,
+				FC67EBEE1D564F2A00F22001 /* idea.h */,
+				FC67EBEF1D564F2A00F22001 /* krb5_asn.h */,
+				FC67EBF01D564F2A00F22001 /* kssl.h */,
+				FC67EBF11D564F2A00F22001 /* lhash.h */,
+				FC67EBF21D564F2A00F22001 /* md4.h */,
+				FC67EBF31D564F2A00F22001 /* md5.h */,
+				FC67EBF41D564F2A00F22001 /* mdc2.h */,
+				FC67EBF51D564F2A00F22001 /* modes.h */,
+				FC67EBF61D564F2A00F22001 /* obj_mac.h */,
+				FC67EBF71D564F2A00F22001 /* objects.h */,
+				FC67EBF81D564F2A00F22001 /* ocsp.h */,
+				FC67EBF91D564F2A00F22001 /* opensslconf.h */,
+				FC67EBFA1D564F2A00F22001 /* opensslv.h */,
+				FC67EBFB1D564F2A00F22001 /* ossl_typ.h */,
+				FC67EBFC1D564F2A00F22001 /* pem.h */,
+				FC67EBFD1D564F2A00F22001 /* pem2.h */,
+				FC67EBFE1D564F2A00F22001 /* pkcs12.h */,
+				FC67EBFF1D564F2A00F22001 /* pkcs7.h */,
+				FC67EC001D564F2A00F22001 /* pqueue.h */,
+				FC67EC011D564F2A00F22001 /* rand.h */,
+				FC67EC021D564F2A00F22001 /* rc2.h */,
+				FC67EC031D564F2A00F22001 /* rc4.h */,
+				FC67EC041D564F2A00F22001 /* ripemd.h */,
+				FC67EC051D564F2A00F22001 /* rsa.h */,
+				FC67EC061D564F2A00F22001 /* safestack.h */,
+				FC67EC071D564F2A00F22001 /* seed.h */,
+				FC67EC081D564F2A00F22001 /* sha.h */,
+				FC67EC091D564F2A00F22001 /* srp.h */,
+				FC67EC0A1D564F2A00F22001 /* srtp.h */,
+				FC67EC0B1D564F2A00F22001 /* ssl.h */,
+				FC67EC0C1D564F2A00F22001 /* ssl2.h */,
+				FC67EC0D1D564F2A00F22001 /* ssl23.h */,
+				FC67EC0E1D564F2A00F22001 /* ssl3.h */,
+				FC67EC0F1D564F2A00F22001 /* stack.h */,
+				FC67EC101D564F2A00F22001 /* symhacks.h */,
+				FC67EC111D564F2A00F22001 /* tls1.h */,
+				FC67EC121D564F2A00F22001 /* ts.h */,
+				FC67EC131D564F2A00F22001 /* txt_db.h */,
+				FC67EC141D564F2A00F22001 /* ui.h */,
+				FC67EC151D564F2A00F22001 /* ui_compat.h */,
+				FC67EC161D564F2A00F22001 /* whrlpool.h */,
+				FC67EC171D564F2A00F22001 /* x509.h */,
+				FC67EC181D564F2A00F22001 /* x509_vfy.h */,
+				FC67EC191D564F2A00F22001 /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		FC67EC1A1D564F2A00F22001 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EC1B1D564F2A00F22001 /* libcrypto.a */,
+				FC67EC1C1D564F2A00F22001 /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FC749C831D63FE9F00993327 /* Eggs */ = {
+			isa = PBXGroup;
+			children = (
+				FC749C841D63FED900993327 /* Eggs.h */,
+				FC749C851D63FED900993327 /* Eggs.m */,
+			);
+			name = Eggs;
+			sourceTree = "<group>";
+		};
+		FC749C921D6444C500993327 /* playerVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FC749C931D6444F100993327 /* controller */,
+			);
+			name = playerVideo;
+			sourceTree = "<group>";
+		};
+		FC749C931D6444F100993327 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC749C941D64467100993327 /* playerVideoVC.h */,
+				FC749C951D64467100993327 /* playerVideoVC.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FCA29FDF1D5435C7000AF3C3 /* duole_iap */ = {
+			isa = PBXGroup;
+			children = (
+				FC67EBC41D56473900F22001 /* duole_iap.md */,
+				FCA29FE01D5435C7000AF3C3 /* duole_iap.h */,
+				FCA29FE11D5435C7000AF3C3 /* duole_iap.m */,
+				7C6A2BC91E5186E7005D6489 /* FJThirdPay.h */,
+				7C6A2BCA1E5186E7005D6489 /* FJThirdPay.m */,
+				FCA29FE21D5435C7000AF3C3 /* fileReadWrite */,
+				FCA29FE71D5435C7000AF3C3 /* request */,
+			);
+			name = duole_iap;
+			path = duoleIosSDK/Class/duole_iap;
+			sourceTree = SOURCE_ROOT;
+		};
+		FCA29FE21D5435C7000AF3C3 /* fileReadWrite */ = {
+			isa = PBXGroup;
+			children = (
+				FCA29FE31D5435C7000AF3C3 /* iapFileRW.h */,
+				FCA29FE41D5435C7000AF3C3 /* iapFileRW.m */,
+				7C6A2BCD1E518703005D6489 /* FJThirdPayFileRW.h */,
+				7C6A2BCE1E518703005D6489 /* FJThirdPayFileRW.m */,
+			);
+			path = fileReadWrite;
+			sourceTree = "<group>";
+		};
+		FCA29FE71D5435C7000AF3C3 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				FCA29FEA1D5435C7000AF3C3 /* sendReceipt.h */,
+				FCA29FEB1D5435C7000AF3C3 /* sendReceipt.m */,
+				7C6A2BD11E518730005D6489 /* FJThirdPaySendReceipt.h */,
+				7C6A2BD21E518730005D6489 /* FJThirdPaySendReceipt.m */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		FCA29FEC1D5435C7000AF3C3 /* duole_log */ = {
+			isa = PBXGroup;
+			children = (
+				FCA29FED1D5435C7000AF3C3 /* duole_log.h */,
+				FCA29FEE1D5435C7000AF3C3 /* duole_log.m */,
+				FCA2A0051D5437CA000AF3C3 /* fileReadWrite */,
+				FCA29FF21D5435C7000AF3C3 /* request */,
+			);
+			name = duole_log;
+			path = duoleIosSDK/Class/duole_log;
+			sourceTree = SOURCE_ROOT;
+		};
+		FCA29FF21D5435C7000AF3C3 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				FCA29FF31D5435C7000AF3C3 /* sendFile.h */,
+				FCA29FF41D5435C7000AF3C3 /* sendFile.m */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		FCA2A0051D5437CA000AF3C3 /* fileReadWrite */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2A0061D5437CA000AF3C3 /* logFileRW.h */,
+				FCA2A0071D5437CA000AF3C3 /* logFileRW.m */,
+			);
+			path = fileReadWrite;
+			sourceTree = "<group>";
+		};
+		FCDBC0DB1D50772E007CA845 /* localNotification */ = {
+			isa = PBXGroup;
+			children = (
+				FCDBC0DD1D50785C007CA845 /* localNotification.h */,
+				FCDBC0DE1D50785C007CA845 /* localNotification.m */,
+			);
+			name = localNotification;
+			path = Macro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC4705601D4713D0009F0B62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC749C961D64467100993327 /* playerVideoVC.h in Headers */,
+				FC67EC751D564F2A00F22001 /* x509.h in Headers */,
+				FC67EC6F1D564F2A00F22001 /* tls1.h in Headers */,
+				FC67EC491D564F2A00F22001 /* err.h in Headers */,
+				FCA29FFF1D5435C7000AF3C3 /* duole_log.h in Headers */,
+				FCA29FF51D5435C7000AF3C3 /* duole_iap.h in Headers */,
+				7C6A2BCB1E5186E7005D6489 /* FJThirdPay.h in Headers */,
+				FC67EC2E1D564F2A00F22001 /* asn1.h in Headers */,
+				FC67EC801D564F2A00F22001 /* RMStoreTransaction.h in Headers */,
+				FC67EC681D564F2A00F22001 /* srtp.h in Headers */,
+				7C16F4091F05F0BD0005C1AA /* MBProgressHUD.h in Headers */,
+				FC67EC3C1D564F2A00F22001 /* crypto.h in Headers */,
+				FC67EC5E1D564F2A00F22001 /* pqueue.h in Headers */,
+				FC67EC441D564F2A00F22001 /* ebcdic.h in Headers */,
+				FC67EC7C1D564F2A00F22001 /* RMStoreAppReceiptVerifier.h in Headers */,
+				FCDBC0DF1D50785C007CA845 /* localNotification.h in Headers */,
+				FC67EC741D564F2A00F22001 /* whrlpool.h in Headers */,
+				FC4705D21D47379A009F0B62 /* duoleLoginVC.h in Headers */,
+				FC67EC691D564F2A00F22001 /* ssl.h in Headers */,
+				FC92EEE91D6ADFC4007AE814 /* CanTingLoginRequest.h in Headers */,
+				FC67EC6B1D564F2A00F22001 /* ssl23.h in Headers */,
+				FC4705851D4713E2009F0B62 /* Macro.h in Headers */,
+				FC67EC431D564F2A00F22001 /* e_os2.h in Headers */,
+				FC4705DB1D473B7D009F0B62 /* KeychainItemWrapper.h in Headers */,
+				FC67EC561D564F2A00F22001 /* ocsp.h in Headers */,
+				FC67EC481D564F2A00F22001 /* engine.h in Headers */,
+				FC67EC521D564F2A00F22001 /* mdc2.h in Headers */,
+				FC67EC661D564F2A00F22001 /* sha.h in Headers */,
+				FC4705671D4713D0009F0B62 /* duoleIosSDK.h in Headers */,
+				FC2DF7E11D4861D5005160BD /* XJLLoginRequest.h in Headers */,
+				FC67EC6E1D564F2A00F22001 /* symhacks.h in Headers */,
+				FC67EC841D564F2A00F22001 /* RMStoreUserDefaultsPersistence.h in Headers */,
+				FC67EC6C1D564F2A00F22001 /* ssl3.h in Headers */,
+				FC67EC511D564F2A00F22001 /* md5.h in Headers */,
+				FC67EC4B1D564F2A00F22001 /* hmac.h in Headers */,
+				FC67EC461D564F2A00F22001 /* ecdh.h in Headers */,
+				FC67EC5F1D564F2A00F22001 /* rand.h in Headers */,
+				FC67EC5B1D564F2A00F22001 /* pem2.h in Headers */,
+				FC67EC721D564F2A00F22001 /* ui.h in Headers */,
+				FC67EC4F1D564F2A00F22001 /* lhash.h in Headers */,
+				FC67EC6D1D564F2A00F22001 /* stack.h in Headers */,
+				FC67EC3D1D564F2A00F22001 /* des.h in Headers */,
+				FC67EC351D564F2A00F22001 /* camellia.h in Headers */,
+				FC749C861D63FED900993327 /* Eggs.h in Headers */,
+				FC67EC611D564F2A00F22001 /* rc4.h in Headers */,
+				FC67EC631D564F2A00F22001 /* rsa.h in Headers */,
+				FC2DF7DC1D484F06005160BD /* loginRequest.h in Headers */,
+				FC67EC411D564F2A00F22001 /* dso.h in Headers */,
+				7C3FFDCD1E5AD8630022A714 /* UIAlertView+Block.h in Headers */,
+				FC67EC3A1D564F2A00F22001 /* conf.h in Headers */,
+				FC67EC3F1D564F2A00F22001 /* dh.h in Headers */,
+				FC67EC7A1D564F2A00F22001 /* RMAppReceipt.h in Headers */,
+				FC67EC321D564F2A00F22001 /* blowfish.h in Headers */,
+				FC67EC641D564F2A00F22001 /* safestack.h in Headers */,
+				FC67EC471D564F2A00F22001 /* ecdsa.h in Headers */,
+				7C6A2BCF1E518703005D6489 /* FJThirdPayFileRW.h in Headers */,
+				FC67EC5A1D564F2A00F22001 /* pem.h in Headers */,
+				FC67EC2F1D564F2A00F22001 /* asn1_mac.h in Headers */,
+				FC67EC591D564F2A00F22001 /* ossl_typ.h in Headers */,
+				FC67EC671D564F2A00F22001 /* srp.h in Headers */,
+				FC67EC331D564F2A00F22001 /* bn.h in Headers */,
+				FC67EC821D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.h in Headers */,
+				FC67EC5D1D564F2A00F22001 /* pkcs7.h in Headers */,
+				FC67EC311D564F2A00F22001 /* bio.h in Headers */,
+				FC67EC581D564F2A00F22001 /* opensslv.h in Headers */,
+				FC67EC391D564F2A00F22001 /* comp.h in Headers */,
+				FC67EC761D564F2A00F22001 /* x509_vfy.h in Headers */,
+				FC2DF7E51D489846005160BD /* GameLoginRequest.h in Headers */,
+				FC67EC551D564F2A00F22001 /* objects.h in Headers */,
+				FC67EC4C1D564F2A00F22001 /* idea.h in Headers */,
+				FC67EC381D564F2A00F22001 /* cms.h in Headers */,
+				FC67EC3B1D564F2A00F22001 /* conf_api.h in Headers */,
+				FC67EC861D564F2A00F22001 /* RMStore.h in Headers */,
+				FC67EC301D564F2A00F22001 /* asn1t.h in Headers */,
+				FC67EC5C1D564F2A00F22001 /* pkcs12.h in Headers */,
+				FC67EC401D564F2A00F22001 /* dsa.h in Headers */,
+				FC67EC2D1D564F2A00F22001 /* aes.h in Headers */,
+				FC2DF7F11D48BDE2005160BD /* JCAlertView.h in Headers */,
+				FC4705D61D4737C5009F0B62 /* loginFileReadWrite.h in Headers */,
+				FC67EC4E1D564F2A00F22001 /* kssl.h in Headers */,
+				FC67EC601D564F2A00F22001 /* rc2.h in Headers */,
+				FC67EC651D564F2A00F22001 /* seed.h in Headers */,
+				FC67EC731D564F2A00F22001 /* ui_compat.h in Headers */,
+				FC67EC4D1D564F2A00F22001 /* krb5_asn.h in Headers */,
+				FC67EC701D564F2A00F22001 /* ts.h in Headers */,
+				FC67EC371D564F2A00F22001 /* cmac.h in Headers */,
+				FC4705E81D475EF3009F0B62 /* CAIanimations.h in Headers */,
+				FCA29FFD1D5435C7000AF3C3 /* sendReceipt.h in Headers */,
+				FC67EC501D564F2A00F22001 /* md4.h in Headers */,
+				FCA29FF71D5435C7000AF3C3 /* iapFileRW.h in Headers */,
+				FC2DF7F61D48BFE9005160BD /* UIComboBox.h in Headers */,
+				FC67EC3E1D564F2A00F22001 /* des_old.h in Headers */,
+				FC67EC531D564F2A00F22001 /* modes.h in Headers */,
+				FCCA4C8B1D4F4B8900E8ACE8 /* moreFunctionFileRW.h in Headers */,
+				7C6A2BD31E518730005D6489 /* FJThirdPaySendReceipt.h in Headers */,
+				FCA2A0031D5435C7000AF3C3 /* sendFile.h in Headers */,
+				FC67EC6A1D564F2A00F22001 /* ssl2.h in Headers */,
+				FC67EC341D564F2A00F22001 /* buffer.h in Headers */,
+				FCCA4C861D4F366D00E8ACE8 /* moreFunctionVC.h in Headers */,
+				FCCA4C911D503CD600E8ACE8 /* FateLoginRequest.h in Headers */,
+				FC67EC4A1D564F2A00F22001 /* evp.h in Headers */,
+				FC67EC361D564F2A00F22001 /* cast.h in Headers */,
+				FC67EC421D564F2A00F22001 /* dtls1.h in Headers */,
+				FC67EC451D564F2A00F22001 /* ec.h in Headers */,
+				FC67EC7E1D564F2A00F22001 /* RMStoreKeychainPersistence.h in Headers */,
+				FCA2A0081D5437CA000AF3C3 /* logFileRW.h in Headers */,
+				FC67EC621D564F2A00F22001 /* ripemd.h in Headers */,
+				FC67EC711D564F2A00F22001 /* txt_db.h in Headers */,
+				FC67EC571D564F2A00F22001 /* opensslconf.h in Headers */,
+				FC67EC771D564F2A00F22001 /* x509v3.h in Headers */,
+				FC67EC541D564F2A00F22001 /* obj_mac.h in Headers */,
+				7C5D57921E4C564D00BFCBE5 /* FJFateLoginRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FC4705621D4713D0009F0B62 /* duoleIosSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4705771D4713D0009F0B62 /* Build configuration list for PBXNativeTarget "duoleIosSDK" */;
+			buildPhases = (
+				FC47055E1D4713D0009F0B62 /* Sources */,
+				FC47055F1D4713D0009F0B62 /* Frameworks */,
+				FC4705601D4713D0009F0B62 /* Headers */,
+				FC4705611D4713D0009F0B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = duoleIosSDK;
+			productName = duoleIosSDK;
+			productReference = FC4705631D4713D0009F0B62 /* duoleIosSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC47056C1D4713D0009F0B62 /* duoleIosSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47057A1D4713D0009F0B62 /* Build configuration list for PBXNativeTarget "duoleIosSDKTests" */;
+			buildPhases = (
+				FC4705691D4713D0009F0B62 /* Sources */,
+				FC47056A1D4713D0009F0B62 /* Frameworks */,
+				FC47056B1D4713D0009F0B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4705701D4713D0009F0B62 /* PBXTargetDependency */,
+			);
+			name = duoleIosSDKTests;
+			productName = duoleIosSDKTests;
+			productReference = FC47056D1D4713D0009F0B62 /* duoleIosSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC47055A1D4713D0009F0B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cxh;
+				TargetAttributes = {
+					FC4705621D4713D0009F0B62 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FC47056C1D4713D0009F0B62 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FC47055D1D4713D0009F0B62 /* Build configuration list for PBXProject "duoleIosSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC4705591D4713D0009F0B62;
+			productRefGroup = FC4705641D4713D0009F0B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4705621D4713D0009F0B62 /* duoleIosSDK */,
+				FC47056C1D4713D0009F0B62 /* duoleIosSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4705611D4713D0009F0B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC67EC2C1D564F2A00F22001 /* LICENSE in Resources */,
+				FC67EC2B1D564F2A00F22001 /* AppleIncRootCertificate.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47056B1D4713D0009F0B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC47055E1D4713D0009F0B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC67EC831D564F2A00F22001 /* RMStoreTransactionReceiptVerifier.m in Sources */,
+				FC749C871D63FED900993327 /* Eggs.m in Sources */,
+				FCDBC0E01D50785C007CA845 /* localNotification.m in Sources */,
+				FCA29FF81D5435C7000AF3C3 /* iapFileRW.m in Sources */,
+				FC4705DC1D473B7D009F0B62 /* KeychainItemWrapper.m in Sources */,
+				FC2DF7E81D489868005160BD /* GameLoginRequest.m in Sources */,
+				7C6A2BD01E518703005D6489 /* FJThirdPayFileRW.m in Sources */,
+				FC67EC811D564F2A00F22001 /* RMStoreTransaction.m in Sources */,
+				FC2DF7E21D4861D5005160BD /* XJLLoginRequest.m in Sources */,
+				FCA29FF61D5435C7000AF3C3 /* duole_iap.m in Sources */,
+				FC4705E91D475EF3009F0B62 /* CAIanimations.m in Sources */,
+				FC92EEE81D6ADFC4007AE814 /* CanTingFateLoginRequest.m in Sources */,
+				FC749C971D64467100993327 /* playerVideoVC.m in Sources */,
+				FCCA4C921D503CD600E8ACE8 /* FateLoginRequest.m in Sources */,
+				FCCA4C8C1D4F4B8900E8ACE8 /* moreFunctionFileRW.m in Sources */,
+				FCA2A0041D5435C7000AF3C3 /* sendFile.m in Sources */,
+				FC4705D31D47379A009F0B62 /* duoleLoginVC.m in Sources */,
+				FC67EC851D564F2A00F22001 /* RMStoreUserDefaultsPersistence.m in Sources */,
+				FCA2A0091D5437CA000AF3C3 /* logFileRW.m in Sources */,
+				7C6A2BD41E518730005D6489 /* FJThirdPaySendReceipt.m in Sources */,
+				FC67EBC51D56473900F22001 /* duole_iap.md in Sources */,
+				FC4705D71D4737C5009F0B62 /* loginFileReadWrite.m in Sources */,
+				FC67EC7B1D564F2A00F22001 /* RMAppReceipt.m in Sources */,
+				7C5D57931E4C564D00BFCBE5 /* FJFateLoginRequest.m in Sources */,
+				FCA29FFE1D5435C7000AF3C3 /* sendReceipt.m in Sources */,
+				FC2DF7DD1D484F06005160BD /* loginRequest.m in Sources */,
+				FC2DF7F21D48BDE2005160BD /* JCAlertView.m in Sources */,
+				FC67EC7D1D564F2A00F22001 /* RMStoreAppReceiptVerifier.m in Sources */,
+				FCA2A0001D5435C7000AF3C3 /* duole_log.m in Sources */,
+				7C6A2BCC1E5186E7005D6489 /* FJThirdPay.m in Sources */,
+				FCCA4C871D4F366D00E8ACE8 /* moreFunctionVC.m in Sources */,
+				7C16F40A1F05F0BD0005C1AA /* MBProgressHUD.m in Sources */,
+				FC67EC871D564F2A00F22001 /* RMStore.m in Sources */,
+				7C3FFDCE1E5AD8630022A714 /* UIAlertView+Block.m in Sources */,
+				FC2DF7F71D48BFE9005160BD /* UIComboBox.m in Sources */,
+				FC67EC7F1D564F2A00F22001 /* RMStoreKeychainPersistence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4705691D4713D0009F0B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DF7FA1D4A0FFE005160BD /* duoleLoginVC.m in Sources */,
+				FC4705731D4713D0009F0B62 /* duoleIosSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4705701D4713D0009F0B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4705621D4713D0009F0B62 /* duoleIosSDK */;
+			targetProxy = FC47056F1D4713D0009F0B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC4705751D4713D0009F0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC4705761D4713D0009F0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC4705781D4713D0009F0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/duoleIosSDK/Librarys/RMStore/Optional/openssl-1.0.1e/include\"";
+				INFOPLIST_FILE = duoleIosSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/duoleIosSDK/Librarys/RMStore/Optional/openssl-1.0.1e/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duole.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC4705791D4713D0009F0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/duoleIosSDK/Librarys/RMStore/Optional/openssl-1.0.1e/include\"";
+				INFOPLIST_FILE = duoleIosSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/duoleIosSDK/Librarys/RMStore/Optional/openssl-1.0.1e/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duole.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC47057B1D4713D0009F0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = duoleIosSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.duole.login.duoleIosSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC47057C1D4713D0009F0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = duoleIosSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.duole.login.duoleIosSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC47055D1D4713D0009F0B62 /* Build configuration list for PBXProject "duoleIosSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4705751D4713D0009F0B62 /* Debug */,
+				FC4705761D4713D0009F0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4705771D4713D0009F0B62 /* Build configuration list for PBXNativeTarget "duoleIosSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4705781D4713D0009F0B62 /* Debug */,
+				FC4705791D4713D0009F0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47057A1D4713D0009F0B62 /* Build configuration list for PBXNativeTarget "duoleIosSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47057B1D4713D0009F0B62 /* Debug */,
+				FC47057C1D4713D0009F0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC47055A1D4713D0009F0B62 /* Project object */;
+}
